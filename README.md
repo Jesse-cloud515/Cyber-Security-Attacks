@@ -2,7 +2,7 @@
 
 An end-to-end analytics project on 40,000 security events (January 2020 to October 2023): cleaning and exploratory analysis in Python, statistical testing, and a 7-page interactive Power BI dashboard.
 
-![Executive Overview page](images/1_dashboard_executive_overview.png)
+Executive Overview page
 
 ## The short version
 
@@ -51,7 +51,7 @@ Five indicator columns are about half empty (49.6% to 50.2%), stored as empty st
 
 ## Power BI dashboard
 
-![Data model](images/3_data_model.png)
+Data model
 
 One fact table of events is filtered by three lookup tables: Date, Severity and Response Action. All relationships are one-to-many and single direction. Auto date/time is off, since the model has its own date table. Measures live in a separate `_Measures` table, grouped into seven folders.
 
@@ -81,7 +81,7 @@ Two requested measures weren't built because the data can't support them. There 
 
 ## Findings
 
-![Response by severity](images/2_response_vs_severity.png)
+Response by severity
 
 | Area | Finding | Evidence |
 | --- | --- | --- |
